@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-axios.defaults.baseURL='http://127.0.0.1:2344';
+axios.defaults.baseURL='https://api.t.deepchainlabs.com/';
 axios.defaults.headers.common['Access-Control-Allow-Origin']="*";
 ReactDOM.render(<App />, document.getElementById("root"));
 // If you want to start measuring performance in your app, pass a function
